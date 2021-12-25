@@ -1,0 +1,59 @@
+.footer{
+    padding-top: 1.5rem,;
+    padding-bottom: 2.5rem;
+
+    background-color: var(--branco);
+    background-image: url(../../img/splash-chamada.svg);
+    background-position: top -11rem right;
+    background-repeat: no-repeat;
+}
+
+.footer__logo{
+    max-width: 11.125rem;
+
+    margin-bottom: 1.25rem;
+}
+
+.footer__social{
+    display: flex;
+
+    margin-bottom: 2rem;
+}
+
+.footer__social-midia{
+    display: inline-block;
+
+    width: 1.625rem;
+    height: 1.625rem;
+
+    margin-right: 1.625rem;
+
+
+
+}
+
+.footer__social-midia--instagram{
+    display: inline-block;
+
+    width: 1.625rem;
+    height: 1.625rem;
+
+    margin-right: 1.625rem;
+}
+
+.footer__unidade{
+    margin-bottom: 2rem;
+}
+
+.footer__unidade-titulo{
+    color: var(--preto);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+
+    /*display: block para fazer pular alinha*/
+
+    display: block;
+
+    margin-bottom: .5rem;    
+}
+
